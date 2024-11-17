@@ -5,6 +5,8 @@ public class Main {
 
         System.out.println(client.isConnected());
         client.send("HOSE:L:Schwarz");
+        client.send("TSHIRT:XL:Schwarz");
+        client.send("BESTAETIGUNG:ja");
         client.logout();
     }
 }
