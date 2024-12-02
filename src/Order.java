@@ -7,7 +7,7 @@ public class Order {
 
 
     public Order(String pType, String pSize, String pColor, Double pPrice){
-        type = pType;
+        type = pType; //Verzicht auf weitere Unterteilung in Einzelklassen, da keine Unterschiede zwischen den Kleidungsattributen erkennbar ist
         size = pSize;
         color = pColor;
         price = pPrice;
